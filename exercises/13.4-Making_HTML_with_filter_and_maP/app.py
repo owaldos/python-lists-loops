@@ -10,3 +10,10 @@ all_colors = [
 
 #Your code go here:
 
+
+
+		
+		
+list_colors= list(map(filter()))
+
+print(list_colors)

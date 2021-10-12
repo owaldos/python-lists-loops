@@ -12,4 +12,12 @@ tasks = [
 
 
 #Your code go here:
+def filter_tasks(task):
+	new_list= list(task.values())
+	if new_list[1]==True:
+		return new_list
+
+new_lista_tasks= list(filter(filter_tasks,tasks))
+print(new_lista_tasks)
+
 

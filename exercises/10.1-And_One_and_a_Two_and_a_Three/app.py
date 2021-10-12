@@ -5,3 +5,10 @@ contact = {
 }
 #Your code here:
 
+for item in contact.items():
+    print(f'{item[0]} : {item[1]}')
+
+
+
+
+    

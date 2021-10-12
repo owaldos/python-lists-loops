@@ -7,3 +7,9 @@ names = ['Liam','Emma','Noah','Olivia','William','Ava','James','Isabella','Logan
 
 
 #Your code go here:
+def filter_am(name):
+    if name.find('am')>0:
+        return name
+
+resulting_names= list(filter(filter_am,names))
+print(resulting_names)

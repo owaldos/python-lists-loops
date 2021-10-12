@@ -8,4 +8,13 @@ incomingAJAXData = [
 
 #Your code go here:
 
+def my_var(data):
+	list_values=list(data.values())
+	new_str= list_values[0]+' '+list_values[1]
+	return new_str
 
+	
+	
+transformedData= list(map(my_var,incomingAJAXData))
+
+print(transformedData)
